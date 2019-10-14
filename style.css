@@ -1,0 +1,557 @@
+#rightInvisible{
+    position:absolute;
+    right:1%;
+    top:4%;
+    visibility: hidden;
+    font-size:1.5em;
+}
+.fa-bars{
+    color:black;
+}
+#topMenu{
+    padding-top:3%;
+}
+#title{
+   letter-spacing: 0.5em;
+    font-size:1.8em;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
+#rightTitle{
+    visibility: visible;
+    font-size:1em;
+}
+.object{
+    display: inline-block;
+    margin-left:5%;
+}
+.endless{
+    margin-right:15%;
+}
+.fas:hover{
+    color: grey;
+    cursor:pointer;
+}
+#menu{
+    margin-top:1%;
+    margin-bottom: 3%;
+    visibility: visible;
+    text-align: center;
+}
+.object1{
+    display:inline-block;
+    font-size: 0.8em;
+    width:11%;
+    text-align: center;
+}
+.line{
+    display: inline;
+    color:black;
+}
+.line:hover{
+    text-decoration: none;
+    color:gray;
+}
+.margin{
+    margin-right:2%;
+}
+.space{
+    margin-left:9%;
+    margin-right:5%;
+}
+.big:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+#text{
+    order: 1;
+}
+#header{
+    color:grey;
+    margin-top:20%;
+    font-size:1.5em;
+    margin-bottom:5%;
+}
+#bigHeader{
+    font-weight: bolder;
+    font-size:4em;
+    position:inherit;
+    margin-bottom:10%;
+}
+#talk{
+    color:grey;
+    margin-bottom:10%;
+}
+.discover{
+    font-weight: bold;
+    color:black;
+}
+.discover:hover{
+    cursor: pointer;
+    color:grey;
+    text-decoration: none;
+}
+#picture{
+    background-image: url(picture/mountaineer.jpg);
+    background-size: cover;
+    height:60vh;
+    position:inherit;
+    order: 2;
+}
+#change{
+    margin-top:3%;
+}
+.number{
+    display:inline-block;
+    font-size:1.3em;
+    color:gray;
+    padding-right:10%;
+    display: inline-block;
+}
+.number:first-child{
+    border-bottom: 2px solid gray;
+}
+.Next{
+    visibility: visible;
+    margin-right:5%;
+    color:grey;
+}
+#bigger{
+    font-size:2.3em;
+}
+.number{
+    border-bottom: 2px solid lightgrey;
+}
+#smaller:hover , #bigger:hover , #group:hover{
+    cursor: pointer;
+}
+.textLittle{
+    margin-top:10%;
+    font-size:1.5em;
+}
+.textBig{
+    font-size:2.5em;
+    font-weight: bolder;
+    margin-bottom:2%;
+}
+.photo{ 
+   background-image: url(picture/clothes.jpg);
+}
+.photo2{
+    
+    background-image: url(picture/girl.jpg);
+}
+.photo3{
+    
+    background-image: url(picture/girl1.jpg);
+}
+.photo4{
+    
+    background-image: url(picture/girl2.jpg);
+}
+.photo5{
+    background-image: url(picture/woman.jpg);
+}
+.photo6{
+    background-image: url(picture/people1.jpg);
+}
+.photo7{
+    background-image: url(picture/bag.jpg);
+}
+.photo8{
+    background-image: url(picture/chequeredPattern.jpg);
+}
+.photo9{
+    background-image: url(picture/shoes.jpg);
+}
+
+.min{
+    margin-right:1%;
+    margin-bottom:1%;
+    height:40vh;
+    background-size: cover;
+    transition-duration:4s;
+}
+.min1{
+    margin-right:1%;
+    margin-bottom:1%;
+    height:40vh;
+    background-size: cover;
+}
+.min:hover{
+   cursor: pointer;
+    text-decoration: none;
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+.lower{
+    color:white;
+    margin-top:30vh;
+    font-weight: bolder;
+    width:100%;
+    font-size:1.5em;
+    text-align: center;
+}
+#grey{
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color: lightgray;
+}
+.descryption{
+    font-weight: bolder;
+    font-size:1.5em;
+    text-align: left;
+}
+.descryption1{
+    margin-top:4%;
+    margin-bottom:4%;
+    font-size:0.9em;
+    text-align: left;
+}
+#picture1{
+    background-image: url(picture/hand.jpg);
+    background-size: cover;
+    height:30vh;
+}
+.tile{
+  font-size:1.2em;
+  color:grey;
+  text-align: left;
+  padding-left:0px;
+  margin-left:6%;
+  margin-top:2%;
+}
+.border1{
+    padding-bottom:2%;
+    border-bottom:1px solid grey;
+}
+.top{
+    margin-top:10%;
+}
+#news1:hover , #news2:hover , #news3:hover{
+    cursor: pointer;
+}
+.check:hover{
+    cursor: pointer;
+}
+#footer{
+    border-top:1px solid lightgray;
+    padding-top:3%;
+    margin-top:10%;
+    margin-bottom: 5%;
+}
+.footerBig{
+    font-weight: bolder;
+}
+.footerIcon{
+    font-size: 1.3em;
+    margin-right:5%;
+    margin-top:6%;
+    display: inline-block;
+}
+.footerIcon:hover{
+    cursor: pointer;
+}
+.active:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+@media(max-width:1200px){
+    #menu{
+        visibility: hidden;
+    }
+    #topMenu{
+        border-bottom: 1px solid grey;
+    }
+    #rightTitle{
+        visibility:hidden;
+    } 
+    #rightInvisible{
+        visibility: visible;
+    }
+}
+
+@media(max-width:720px){
+ #picture{
+        order:1;
+    }
+    #text{
+        order:2;
+    }
+}
+
+/* menu.html */
+
+leftInvisible{
+    position:absolute;
+    left:1%;  
+}
+.fa-times{
+    font-size:2.5em;
+    color:black;
+}
+#menu1{
+    margin-top:1%;
+    margin-bottom: 3%;
+    visibility: visible;
+}
+.object2{
+    font-size: 2em;
+    width:30%;
+    text-align: center; 
+}
+
+/* template.html */
+
+#pictureLong{
+    background-size: cover;
+    background-image: url(picture/cold.jpg);
+    height:50vh;
+    margin-bottom: 5%;
+}
+.black{
+    color:black;
+    visibility: visible;
+}
+#photo11{
+    background-image: url(picture/winter1.jpg);
+}
+#photo12{
+    background-image: url(picture/winter2.jpg);
+}
+#photo13{
+    background-image: url(picture/winter3.jpg);
+}
+#photo14{
+    background-image: url(picture/shoes1.jpg);
+}
+#photo15{
+    background-image: url(picture/shoes2.jpg);
+}
+#photo16{
+    background-image: url(picture/shoes3.jpg);
+}
+.min1{
+    background-size:cover;
+    margin-right:1%;
+    margin-bottom:1%;
+    height:40vh;
+}
+.borderGray{
+    border-bottom:1px solid grey;
+    padding-bottom: 2%;
+}
+@media(max-width:750px){
+    .black{
+        visibility: hidden;
+    }
+}
+
+.min2{
+    height:40vh;
+    background-size: cover;
+}
+.min3{
+        height:5vh;
+    }
+.cancel{
+    text-decoration: line-through;
+    margin-right:10%;
+}
+.lower1{
+    color:white;
+    font-weight: bolder;
+    width:100%;
+    font-size:1.5em;
+    text-align: center;
+}
+.price:hover{
+    cursor: default;
+}
+#seeMore{
+    color: black;
+}
+#photo17{
+    background-image: url(picture/winter4.jpg);
+}
+#photo18{
+    background-image: url(picture/winter5.jpg);
+}
+#photo19{
+    background-image: url(picture/winter6.jpg);
+}
+#photo20{
+    background-image: url(picture/shoes4.jpg);
+}
+#photo21{
+    background-image: url(picture/shoes5.jpg);
+}
+#photo22{
+    background-image: url(picture/shoes6.jpg);
+}
+
+/* glasses.html */
+#pictureLong2{
+    background-size: cover;
+    background-image: url(picture/glasses4.jpg);
+    height:50vh;  
+}
+#navGlasses{
+    background-color: lightgray;
+    height:8vh;
+    text-align: center;
+    padding-top:2vh;
+}
+.glasses{
+    color:black;
+    margin-right:5%;
+    font-size: 1em;
+    
+}
+.glasses:hover{
+    text-decoration: none;
+    color:grey;
+}
+@media(max-width:500px){
+    .glasses{
+      font-size:0.7em;
+    }
+}
+#photo23{
+    background-image: url(picture/glasses1.jpg);
+}
+#photo24{
+    background-image: url(picture/glasses2.jpg);
+}
+#photo25{
+    background-image: url(picture/glasses3.jpg);
+}
+#photo26{
+    background-image: url(picture/glasses11.jpg);
+}
+#photo27{
+    background-image: url(picture/glasses8.jpg);
+}
+#photo28{
+    background-image: url(picture/glasses12.jpg);
+}
+#photo29{
+    background-image: url(picture/glasses13.jpg);
+}
+#photo30{
+    background-image: url(picture/glasses14.jpg);
+}
+#photo31{
+    background-image: url(picture/glasses6.jpg);
+}
+#photo32{
+    background-image: url(picture/glasses9.jpg);
+}
+#photo33{
+    background-image: url(picture/glasses10.jpg);
+}
+#photo34{
+    background-image: url(picture/glasses7.jpg);
+}
+
+/* watches.html */
+#pictureLong3{
+    background-size: cover;
+    background-image: url(picture/watch2.jpg);
+    height:50vh;  
+}
+#photo35{
+    background-image: url(picture/watch1.jpg);
+}
+#photo36{
+    background-image: url(picture/watch3.jpg);
+}
+#photo37{
+    background-image: url(picture/watch4.jpg);
+}
+#photo38{
+    background-image: url(picture/watch5.jpg);
+}
+#photo39{
+    background-image: url(picture/watch6.jpg);
+}
+
+/* bag.html */
+#pictureLong4{
+    background-size: cover;
+    background-image: url(picture/bag.jpg);
+    height:50vh;  
+}
+#photo40{
+    background-image: url(picture/bag1.jpg);
+}
+#photo41{
+    background-image: url(picture/bag2.jpg);
+}
+#photo42{
+    background-image: url(picture/bag3.jpg);
+}
+#photo43{
+    background-image: url(picture/bag4.jpg);
+}
+
+/* electronics.html */
+#pictureLong5{
+    background-size: cover;
+    background-image: url(picture/electronics.jpg);
+    height:50vh;  
+}
+
+/* accesories.html */
+#pictureLong6{
+    background-size: cover;
+    background-image: url(picture/accessories.jpg);
+    height:50vh;  
+}
+
+/* test.html everything.html */
+#pictureLong1{
+    background-size: cover;
+    background-image: url(picture/people1.jpg);
+    height:50vh;  
+}
+.fa-square{
+    color:lightgray;
+}
+.fa-square:hover{
+    color:bisque;
+}
+
+/* test1.html */
+#hiddenSearch{
+    display: none;
+    height:40vh;
+    background-color:beige;
+    color:black;
+    padding-top:5%;
+}
+#filter{
+    color:black;
+}
+#filter:hover{
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+}
+#thing11{
+    visibility: hidden;
+}
+#colour1{
+    visibility: hidden;
+}
+#year{
+    visibility: hidden;
+}
+
+
+
